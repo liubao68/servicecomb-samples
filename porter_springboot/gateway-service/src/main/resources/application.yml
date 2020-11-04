@@ -66,13 +66,13 @@ servicecomb:
               microserviceName: website
               versionRule: 0.0.0+
 
-
   credentials:
-    akskEnabled: true
-    accessKey: add your ak/sk from huaweicloud
-    secretKey: add your ak/sk from huaweicloud
-    akskCustomCipher: default
-    project: cn-south-1
+    rbac:
+      enabled: true
+    account:
+      name: your name/password
+      password: your name/password
+    cipher: default
 
 # This is web root for windows server, change this path according to where you put your source code
 gateway:

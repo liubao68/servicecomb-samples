@@ -51,8 +51,9 @@ servicecomb:
 
 
   credentials:
-    akskEnabled: true
-    accessKey: add your ak/sk from huaweicloud
-    secretKey: add your ak/sk from huaweicloud
-    akskCustomCipher: default
-    project: cn-south-1
+    rbac:
+      enabled: true
+    account:
+      name: your name/password
+      password: your name/password
+    cipher: default
